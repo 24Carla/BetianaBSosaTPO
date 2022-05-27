@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    background-color: rgb(224, 231, 162);
+}
+#titulo{
+    color: rgb(8, 1, 8);
+    /*border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+    border-width: 10px;*/
+    font-size:80px
+}
+
+h1{
+    color: blue;
+}
+.texto{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 30px 10px 10px rgb(86, 190, 26) ;
+    text-decoration-line: underline;
+    font-size:40px
+}
+.Email{
+    color: blueviolet;
+    font-size:30px
+}
+
+#fondo{
+    height: 200px;
+    background-color: blue;
+    background-image:url('imagen2.png');
+    background-size: contain;
+    background-repeat: round;
+}
+.otracosa{
+    color: rgb(187, 56, 24);
+    font-size:40px;
+}
+.margen{
+    background-color: blue;
+    margin: 15px ;
+    padding: 15px 20px 25px ;
+    border: solid 1px black;    
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 10px blue;
+}
+nav:link{
+    color: blue;
+    
+}nav:visited{
+    color: yellow;
+}nav:hover{
+    color: brown;
+}nav:active{
+    content: red;
+}
+nav{
+    font-size:20px;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+} 
+th,tr{
+    border: solid 1px blue;
+    padding: auto;
+}
+th{
+    background-color: aquamarine;
+    color: rgb(58, 60, 151);
+
+}
+th:hover{
+    background-color: rgb(235, 238, 77);
+    cursor: pointer;
+
+}
+tr:nth-child(even){
+    background-color: rgb(81, 81, 131);
+
+
+  }
+  #Entretenimiento{
+    color: black;  
+    height: 200px;
+    background-color: blue;
+    background-image:url('imagen.png.webp');
+    background-size: contain;
+    background-repeat: round;
+  }
+  #Escolar{
+    color: black;  
+    height: 200px;
+    background-color: rgb(47, 175, 35);
+    background-image:url('Escolar.png.png');
+    background-size: contain;
+    background-repeat: round;
+}
+#Indumentaria{
+    color: black;  
+    height: 200px;
+    background-color: rgb(47, 175, 35);
+    background-image:url('Indumentaria.png');
+    background-size: contain;
+    background-repeat: round;
+}
+#Supermercado{
+    color: black;  
+    height: 200px;
+    background-color: rgb(47, 175, 35);
+    background-image:url('supermercado.png');
+    background-size: contain;
+    background-repeat: round;
+}
